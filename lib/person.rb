@@ -15,7 +15,7 @@ class Person
   end
 end
 
-if __FILE__ == $0
+if __FILE__ == $PROGRAM_NAME
   person = Person.new("Taro", "Yamada")
   puts person.full_name
 end
