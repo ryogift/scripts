@@ -1,0 +1,18 @@
+{
+  "profiles": [
+    {"account_id": 1, "display_name": "Masashi Murai"},
+    {"account_id": 2, "display_name": "Ryusuke Ueda"},
+    {"account_id": 3, "display_name": "Shinpei Fujimoto"},
+    {"account_id": 4, "display_name": "Chihiro Muto"},
+    {"account_id": 5, "display_name": "Ayaka Kanazawa"},
+    {"account_id": 6, "display_name": "Miki Takaishi"}
+  ],
+  "accounts": [
+    {"id": 1, "user_name": "masashimurai", "email": "masashimurai@ryo.gift"},
+    {"id": 2, "user_name": "ryusukeueda", "email": "ryusukeueda@ryo.gift"},
+    {"id": 3, "user_name": "shinpeifujimoto", "email": "shinpeifujimoto@ryo.gift"},
+    {"id": 4, "user_name": "chihiromuto", "email": "chihiromuto@ryo.gift"},
+    {"id": 5, "user_name": "ayakakanazawa", "email": "ayakakanazawa@ryo.gift"},
+    {"id": 6, "user_name": "mikitakaishi", "email": "mikitakaishi@ryo.gift"}
+  ]
+}
