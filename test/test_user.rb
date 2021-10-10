@@ -20,6 +20,6 @@ class TestUser < Minitest::Test
 
   def test_nil_user
     user = User.new("test")
-    assert_equal(user.user_name, nil)
+    assert_nil(user.user_name)
   end
 end

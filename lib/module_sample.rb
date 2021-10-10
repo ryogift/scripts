@@ -1,9 +1,9 @@
+# Foo
 module Foo
   def add(left, right)
     left + right
   end
 end
-
 
 class Bar
   include Foo

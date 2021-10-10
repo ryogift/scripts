@@ -2,6 +2,8 @@ require "json"
 
 # JSONサンプル
 class JsonSample
+  attr_reader :data
+
   def initialize
     @data = {
       users: [
@@ -15,6 +17,6 @@ class JsonSample
   # to_jsonがjson形式のString型に変換する
   # JSON.parseがjson文字列をハッシュに変換する
   def output
-    JSON.parse @data.to_json
+    JSON.parse data.to_json
   end
 end

@@ -2,6 +2,8 @@ require "csv"
 
 # CSVサンプル
 class CsvSample
+  attr_reader :data
+
   def initialize
     @data = {
       users: [
@@ -15,7 +17,7 @@ class CsvSample
   def output
     CSV.open("./data/sample.csv", "w") do |csv|
       csv << @data[:users][0].keys
-      @data[:users].each do |user|
+      data[:users].each do |user|
         csv << user.values
       end
     end
