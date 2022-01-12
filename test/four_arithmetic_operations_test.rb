@@ -1,4 +1,4 @@
-require "./test/test_helper"
+require "minitest/autorun"
 require "./lib/four_arithmetic_operations"
 
 # 四則演算テスト

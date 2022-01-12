@@ -1,4 +1,4 @@
-require "./test/test_helper"
+require "minitest/autorun"
 require "./lib/module_sample"
 
 # Moduleサンプル テスト

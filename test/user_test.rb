@@ -1,4 +1,4 @@
-require "./test/test_helper"
+require "minitest/autorun"
 require "./lib/user"
 
 # User テスト
